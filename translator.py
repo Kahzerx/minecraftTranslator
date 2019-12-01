@@ -9,7 +9,7 @@ from googletrans import Translator#pip install googletrans or python -m pip inst
 so = sys.platform
 
 if so == 'win32' or so == 'win64':
-	from win10toast import ToastNotifier#pip install ToastNotifier or python -m pip install ToastNotifier
+	from win10toast import ToastNotifier#pip install ToastNotifier or python -m pip install win10toast
 	toaster = ToastNotifier()
 
 elif so == 'linux' or so == 'linux2':#pip install notify2 or python -m pip install notify2
