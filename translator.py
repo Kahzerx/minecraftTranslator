@@ -41,9 +41,9 @@ while True:
 			continue
 
 		message = ' '.join(lastline[3:])
-		translation = translator.translate(message, dest='es')
+		translation = translator.translate(message, dest='en')
 
-		if translation.src == 'es':
+		if translation.src == 'en':
 			continue
 
 		if so == 'win32' or so == 'win64':
