@@ -17,7 +17,10 @@ elif so == 'linux' or so == 'linux2':#pip install notify2 or python -m pip insta
 
 
 translator = Translator()
-#log = 'C:/Users/kahzerx/Downloads/MultiMC/instances/1.13.2/.minecraft/logs/latest.log'#u might need to add a 'r' at the beggining of the windows path for it to recognixe correctly like so: r'C:/path/to/log'
+#log = 'C:/Users/kahzerx/Downloads/MultiMC/instances/1.13.2/.minecraft/logs/latest.log'
+"""
+u might need to add a 'r' at the begining of the windows path for it to recognize correctly, like so: r'C:/path/to/log'
+"""
 log = '/home/kahzerx/.local/share/multimc/instances/1.13.2/.minecraft/logs/latest.log'
 
 prev_size = os.path.getsize(log)
