@@ -21,7 +21,7 @@ translator = Translator()
 """
 u might need to add a 'r' at the begining of the windows path for it to recognize correctly, like so: r'C:/path/to/log'
 """
-log = '/home/kahzerx/.local/share/multimc/instances/1.13.2/.minecraft/logs/latest.log'
+log = '/home/kahzerx/.local/share/multimc/instances/1.15.2/.minecraft/logs/latest.log'
 
 prev_size = os.path.getsize(log)
 cur_size = os.path.getsize(log)
